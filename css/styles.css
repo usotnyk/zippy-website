@@ -4,18 +4,6 @@ body {
   line-height: 1.7em;
 }
 
-html {
-   margin: 0px;
-   height: 100%;
-   width: 100%;
-}
-
-body {
-   margin: 0px;
-   min-height: 100%;
-   width: 100%;
-}
-
 .jumbotron {
   background: url('../images/bg-home.jpg') no-repeat;
   background-size: cover;
@@ -23,20 +11,20 @@ body {
   padding-top: 2%;
 }
 
-.jumbotron .h1, .jumbotron h1 {
+.jumbotron  .h1, .jumbotron  h1 {
 	font-size: 2.5em;
 	word-spacing: 3px;
 	letter-spacing: 2px;
 }
 
-.jumbotron p {
+.jumbotron  p {
 	font-size: 0.9em;
 }
-.jumbotron .container {
+.jumbotron  .container {
 	margin-left: 80px;
 }
 
-.jumbotron .btn {
+.jumbotron  .btn {
 	margin-top: 60px;
 }
 
