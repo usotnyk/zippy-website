@@ -4,6 +4,17 @@ body {
   line-height: 1.7em;
 }
 
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
 
 .jumbotron {
   background: url('../images/bg-home.jpg') no-repeat;
@@ -127,8 +138,27 @@ h2 {
 	margin-top: 50px;
 }
 
-#footer #social {
-	text-align: justify;
+#footer h4 {
+	margin-left: 60px;
+}
+
+#social {
+	display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#social a {
+	display: inline-block;
+	color: #BCBCBC;
+}
+
+#social a:hover {
+	color: #FFD700;
+}
+
+#copyright {
+	margin-left: 60px;
 }
 
 /* MEDIA QUERIES
@@ -150,6 +180,18 @@ h2 {
   	#main-content p {
 		padding-right: 0px;
 	}
+
+	#copyright {
+	margin-left: 0px;
+	margin-top: 20px;
+	text-align: center;
+	}
+
+	#footer h4 {
+	margin-left: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
 }
 
 @media (max-width: 420px) {
